@@ -12,6 +12,7 @@ public class SnakeWindow extends JFrame {
         add(new GameField());
         setVisible(true);
     }
+    
     public static void main(String[] args) {
         SnakeWindow sw = new SnakeWindow();
     }
